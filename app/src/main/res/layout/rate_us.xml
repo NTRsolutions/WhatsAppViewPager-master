@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_gravity="center_horizontal|center_vertical"
+
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content">
+
+
+    <LinearLayout
+android:paddingLeft="10dp"
+        android:paddingRight="10dp"
+        android:paddingBottom="20dp"
+        android:layout_marginLeft="5dp"
+        android:layout_marginRight="5dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:gravity="center_horizontal">
+        <TextView
+            android:layout_marginTop="10dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="How to Use"
+            android:textSize="20dp"
+            android:textStyle="bold"
+            android:gravity="center"/>
+        <TextView
+            android:layout_marginTop="10dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="left"
+            android:padding="5dp"
+            android:text="@string/openwhatsapp"
+            android:textSize="12dp" />
+        <TextView
+            android:padding="5dp"
+            android:textSize="12dp"
+            android:gravity="left"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/openwhatsapp2"
+            />
+
+        <TextView
+            android:padding="5dp"
+            android:textSize="12dp"
+            android:gravity="left"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/openwhatsapp3"
+            />
+
+        <Button
+            android:id="@+id/whatsappopen"
+            android:onClick="openwhatsapp"
+            android:textColor="#ffffff"
+            android:textStyle="bold"
+            android:padding="15dp"
+            android:text="Open WhatsApp"
+            android:background="@drawable/btnboarder"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"/>
+    </LinearLayout>
+
+<LinearLayout
+    android:visibility="gone"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginTop="20dp"
+    android:gravity="center"
+    android:layout_margin="20dp"
+    android:padding="20dp">
+
+    <TextView
+        android:textColor="#000000"
+        android:id="@+id/later"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textStyle="bold"
+        android:text="Later"
+        android:textSize="23dp"
+        />
+
+    <TextView
+        android:visibility="gone"
+        android:textColor="#000000"
+        android:id="@+id/ratenow"
+        android:layout_marginLeft="30dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textStyle="bold"
+        android:text="Rate Now"
+        android:textSize="23dp"/>
+</LinearLayout>
+
+</RelativeLayout>

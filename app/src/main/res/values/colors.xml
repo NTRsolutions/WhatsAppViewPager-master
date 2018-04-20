@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#075E54</color>......
+    <color name="colorPrimaryDark">#054039</color>
+    <color name="colorAccent">#96BCB7</color>
+
+    <color name="colorTextPrimary">#FFFFFF</color>
+    <color name="colorTextDisable">#66FFFFFF</color>
+    <color name="footercolor">#075E54</color>
+    <color name="myblack">#075E54</color>
+</resources>

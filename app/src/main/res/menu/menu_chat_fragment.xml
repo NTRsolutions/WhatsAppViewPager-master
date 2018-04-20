@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item android:id="@+id/ratingimage"
+        android:title="@string/action_calls"
+        android:icon="@drawable/ratingimg"
+        app:showAsAction="always"/>
+    <item android:id="@+id/action_chat"
+        android:title="@string/action_chat"
+        android:icon="@drawable/playsmenue"
+        app:showAsAction="always"/>
+    <item android:id="@+id/action_clear_log"
+        android:title="@string/action_new_group"
+        app:showAsAction="never"/>
+
+
+</menu>

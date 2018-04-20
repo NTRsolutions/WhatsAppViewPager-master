@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+
+
+    <ImageView
+        android:visibility="invisible"
+        android:id="@+id/imgDisplay"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:scaleType="fitCenter" />
+    <VideoView
+        android:visibility="visible"
+        android:id="@+id/imgDisplayVideo"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_centerInParent="true"
+        android:scaleType="fitCenter" />
+
+
+
+    <de.hdodenhof.circleimageview.CircleImageView
+        android:id="@+id/btnClose"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginRight="15dp"
+        android:layout_marginTop="15dp"
+        android:paddingTop="2dp"
+        android:paddingBottom="2dp"
+        android:textColor="#ffffff"
+        android:text="Close"
+        android:src="@drawable/crossimage"
+        android:layout_width="32dp"
+        android:layout_height="32dp"
+        />
+
+    <ImageView
+        android:visibility="gone"
+        android:id="@+id/play"
+        android:layout_centerInParent="true"
+        android:paddingTop="2dp"
+        android:paddingBottom="2dp"
+        android:src="@drawable/plays"
+        android:layout_width="32dp"
+        android:layout_height="32dp"
+        android:alpha="0.9"
+        />
+
+    <ImageView
+
+        android:id="@+id/downloadmyimage"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginRight="15dp"
+        android:layout_marginBottom="15dp"
+        android:paddingTop="2dp"
+        android:paddingBottom="2dp"
+        android:textColor="#ffffff"
+        android:text="Close"
+        android:src="@drawable/downloadmyimage"
+        android:layout_width="64dp"
+        android:layout_height="64dp"
+        />
+
+
+
+
+</RelativeLayout>
